@@ -1,0 +1,211 @@
+/* Personnalisation de l'apparence de la police */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Personnalisation de l'apparence du header */
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 1%;
+    position: fixed;
+    top:  3%;
+    left: 3%;
+    right: 3%;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 15px rgb(17, 16, 16);
+    z-index: 10;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+h1 {
+    margin-left: 20px; /* Ajouter une marge à gauche pour l'espace entre Statistique et la formation */
+}
+
+img{
+    padding: 0 3%;
+    max-width: 220px;
+    max-height: 80px;
+    
+}
+
+h1
+{
+    color: firebrick;
+    margin-right: 50 px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+
+h2
+{
+    color: firebrick;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+h6{
+
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+
+
+
+.nomform, .email
+{
+    margin-right : 10px;
+
+}
+
+.nomform, .prenomform, .email
+{
+    width: 250px;
+}
+
+.ville
+{
+    width: 270px;
+}
+
+legend
+{
+    margin-left: 100px;
+    color: white;
+    background-color: firebrick;
+    padding: 10px 10px;
+    border-radius: 100px;
+
+}
+
+.villetat, .etatO
+{
+    width: 200px;
+}
+
+.formaA
+{
+    width: 100px;
+}
+
+p{
+
+    height: 80px;
+    text-align: center;
+    font-size:medium;
+}
+
+
+.formation
+{
+   text-align: center;
+
+}
+
+
+.traitement{
+    color: firebrick;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+
+/* Personnalisation de l'apparence de la barre de défilement */
+body::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(111, 22, 22);
+    border-radius: 20px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: firebrick;
+    border-radius: 20px;
+  }
+  
+  /* Supprimez la propriété border-radius de la piste de la barre de défilement */
+  body::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Couleur de fond de la piste de la barre de défilement */
+  }
+
+
+/* taille écran */
+@media screen and (max-width: 768px) {
+    header{
+    height: 100px;
+    transition:0.5s
+    }
+
+    h1
+    {
+    color: firebrick;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+    h2
+    {
+    color: firebrick;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+    img{
+        padding: 0 3%;
+        max-width: 120px;
+        max-height: 50px;
+        transition:0.5s
+    }
+
+}
+  
+@media screen and (max-width: 678px) {
+    header{
+    height: 80px;
+    transition:0.5s
+    }
+
+    h1
+    {
+    color: firebrick;
+    text-align: center;
+    font-size:medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:0.5s
+    }
+
+    h2
+    {
+    color: firebrick;
+    text-align: center;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:0.5s
+    }
+
+}
