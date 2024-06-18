@@ -1,2 +1,2 @@
 # JPO-BTS
-JPO Projet 1 BTS SIO René Cassin
+Projet 2 BTS SIO René Cassin
